@@ -1,0 +1,132 @@
+body
+{
+    background: url('../images/electronics.jpg') no-repeat center center  fixed;
+    background-size: cover;
+}
+
+@media(max-width:575px)
+{
+    #logo img
+    {
+        width: 50%;
+    }
+
+    #counter .counter
+    {
+        fontsize: 1.2em !important;
+    }
+
+    #icons .fa
+    {
+        font-size: 80% !important;
+
+        margin: 10px 0 0 !important;
+    }
+
+    input
+    {
+        width: 190px !important;
+    }
+}
+
+/*@media(min-width:321px)and(max-width: 568px)/*for handling rotation cases*/
+/*{
+    #logo img
+    {
+        width: 20%;
+    }
+}*/
+
+#logo img
+{
+    margin-top: 20px;
+}
+
+
+#intro p
+{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 24px;
+
+    color: white;
+}
+
+#counter .counter
+{
+    font-family: 'Tinos', serif;
+    font-size: 2.0em;
+
+    color: white;
+}
+
+#icons .fa
+{
+    position: relative;
+    bottom: 0;
+
+    margin: 10px 15px;
+
+    transition: all .2s ease-in-out; /*all specifies all the properties of this block , transition time and transition effect*/
+
+    color: white;
+}
+
+/*code to add the hovr effect to eac and every icon*/
+
+#icons .twitter:hover
+{
+    bottom: 10px; /*move by 7px from initil position on hover*/
+
+    color: #363795;
+}
+
+#icons .whatsapp:hover
+{
+    bottom: 10px;
+
+    color: #0f9b0f;
+}
+
+#icons .facebook:hover
+{
+    bottom: 10px;
+
+    color: #26a0da;
+}
+
+#icons .linkedin:hover
+{
+    bottom: 10px;
+
+    color: #2a5298;
+}
+
+#icons .instagram:hover
+{
+    bottom: 10px;
+
+    color: #ffc500;
+}
+
+#signup
+{
+    text-align: center;
+}
+
+#signup .form-inline
+{
+    display: block;
+
+    size: 20px;
+}
+
+#signup .btn
+{
+    color: white;
+    background-color: rgba(161,186, 226, .5);
+}
+
+#signup .btn:hover
+{
+    background-color: rgba(37,165,82,1);
+}
